@@ -1,0 +1,82 @@
+
+
+/*# sourceMappingURL=index.css.map */
+:root{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body{
+	background-image: url("../images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+}
+
+.container{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform:  translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.card-order{
+	text-align: center;
+	justify-content: center;
+	border-radius: 25px;
+	width:max-content;
+	overflow: hidden;
+	box-shadow: 0 0 5px #c4c4c4;
+}
+
+.card-image > img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.card-details{
+	padding: 2% 18%;
+	width: 300px;
+	background-color: #FFFFFF;
+}
+.card-details > p, .card-detail-plan > .plan > p, .btn-cancel{
+	color: grey;
+}
+.card-detail-plan{
+	background-color: #f3f3f3;
+	padding: 1rem;
+	border-radius: 10px 10px;
+	line-height: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.icon-music{
+	border-radius: 50%;
+	background-color: #e0e8ff;
+}
+.btn-change{
+	float: right;
+	bottom: 10%;
+}
+.btn-payment{
+	background-color: #382ae1;
+	color: #FFFFFF;
+	border: none;
+	width: 100%;
+	padding:3% 5% 3% 5%;
+	border-radius: 10px 10px;
+	box-shadow: 0 5px 5px #c4c4c4;
+	margin: 2em 0 2em 0;
+}
+.btn-cancel{
+	background-color: #FFFFFF;
+	border: none;
+	margin-bottom: 2em;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
